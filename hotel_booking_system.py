@@ -1,6 +1,6 @@
 import csv
 from datetime import datetime
-from tkinter import *
+
 
 # Read csv file
 rooms = []
@@ -253,4 +253,5 @@ def action_ss(guest_action):
 
 
 guest_action = input('Welcome to TIM HOTELS\n1.Book a Room\n2.Cancel a Reservation\n3.Quit\n')
+
 action_ss(guest_action)
